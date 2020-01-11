@@ -1,16 +1,30 @@
 {
-  "name": "voting-app",
-  "version": "0.0.0",
-  "private": true,
+  "name": "voting_app",
+  "version": "1.0.0",
+  "description": "simple voting app",
+  "main": "app.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0had0/voting_app.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Hadi Houssainy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0had0/voting_app/issues"
+  },
+  "homepage": "https://github.com/0had0/voting_app#readme",
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "jade": "~1.11.0",
-    "morgan": "~1.9.1"
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.7",
+    "nodemon": "^2.0.2"
   }
 }
